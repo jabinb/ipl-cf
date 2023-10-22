@@ -1,0 +1,24 @@
+{
+  "name": "ipl-cf",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev --port 2083"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230419.0",
+    "@types/node": "^18.15.3",
+    "prettier": "^3.0.3",
+    "typescript": "^5.0.4",
+    "wrangler": "^3.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "pe-library": "^1.0.0",
+    "itty-router": "^3.0.12",
+    "exe-edit": "^0.1.1"
+  }
+}
